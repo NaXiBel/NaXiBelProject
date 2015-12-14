@@ -16,12 +16,12 @@ require 'MySQLException.php';
 class ConnexionMySQL {
     private static $instance = null; 
     private
-            $hote = 'mysql-***.alwaysdata.net',
-            $utilisateur = '***',
-            $motDePasse = '***', 
+            $hote = 'mysql-casseTaCroute.alwaysdata.net',
+            $utilisateur = 'mangeTesDents',
+            $motDePasse = 'mangeTonChat', 
             $lien = '',
             $nombreRequetes = 0, 
-            $nomBD = 'naxibel_bd';
+            $nomBD = 'petitMalindela_bd';
 
     /**
      * 
