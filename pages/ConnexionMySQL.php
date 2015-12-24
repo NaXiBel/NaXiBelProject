@@ -16,12 +16,12 @@ require 'MySQLException.php';
 class ConnexionMySQL {
     private static $instance = null; 
     private
-            $hote = 'mysql-naxibel.alwaysdata.net',
-            $utilisateur = 'naxibel',
-            $motDePasse = 'u28ncxam', 
+            $hote = '***',
+            $utilisateur = '***',
+            $motDePasse = '****', 
             $lien = '',
             $nombreRequetes = 0, 
-            $nomBD = 'naxibel_bd';
+            $nomBD = '****';
 
     /**
      * 
