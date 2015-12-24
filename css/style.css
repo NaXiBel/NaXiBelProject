@@ -70,6 +70,22 @@ nav {
     
 }
 
+
+#contentConfig {
+    
+}
+
+.contenuAffiche {
+    display:inline;
+    
+}
+
+.contenuCache {
+    display:none; 
+    
+}
+
+
 article {
     background-color : #252526; 
     padding-top : 1em; 

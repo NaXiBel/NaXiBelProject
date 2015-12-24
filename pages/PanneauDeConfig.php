@@ -3,8 +3,9 @@
     <html>
         <head>
             <meta charset="UTF-8">
-            <link rel="stylesheet" href="../css/style.php" type="text/css" media="all" />
+            <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
             <title>NaXiBel's site</title>
+            <script type="text/javascript" src="../js/scripts.js"></script>
         </head>
 
         <body>
@@ -19,32 +20,15 @@
                     </nav>
                     
                 </header>
-                <section id ="contentBody">
-                    <article id="news">
-                        <p>Haec dum oriens diu perferret, caeli reserato 
-                            tepore Constantius consulatu suo septies et 
-                            Caesaris ter egressus Arelate Valentiam petit, 
-                            in Gundomadum et Vadomarium fratres Alamannorum 
-                            reges arma moturus, quorum crebris excursibus 
-                            vastabantur confines limitibus terrae Gallorum.</p>
 
-                    </article>
-                    
-                    <article id="news">
-                        <p>Haec dum oriens diu perferret, caeli reserato 
-                            tepore Constantius consulatu suo septies et 
-                            Caesaris ter egressus Arelate Valentiam petit, 
-                            in Gundomadum et Vadomarium fratres Alamannorum 
-                            reges arma moturus, quorum crebris excursibus 
-                            vastabantur confines limitibus terrae Gallorum.</p>
-
-                    </article>
-                   
+                <section id ="contentConfig">
+                    <a id="clickOption" href="#" onclick="deroulerContenu(this)">Rédiger une news</a> 
+                    <div class="contenuCache" id="contenuDeroulant"> Coucou ! </div>
+                    <a id="clickOption" href="#" onclick="deroulerContenu(this)">Gestion des histoires</a>
+              
                 </section>
                 
-                <?php
-                    include 'utils.php'; 
-                ?>
+
                 
                 <footer>
                     <h3><a href = "Connexion.php">Panneau de configuration</a></h3>

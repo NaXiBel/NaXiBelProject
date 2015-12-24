@@ -2,7 +2,7 @@
     <html>
         <head>
             <meta charset="UTF-8">
-            <link rel="stylesheet" href="../css/style.php" type="text/css" media="all" />
+            <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
             <title>NaXiBel's site</title>
         </head>
 
